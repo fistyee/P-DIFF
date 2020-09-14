@@ -1,0 +1,19 @@
+message LayerParameter {
+  optional PDIFFParameter p_diff_param = 175;
+}
+
+message PDIFFParameter {
+  optional int32 start_iter = 1 [default = 1];
+  optional int32 bins = 2 [default = 220];
+  optional int32 slide_batch_num = 3 [default = 100];// slide window size of mini-batch which used for compute pdf
+  optional float value_low = 4 [default = -1.1];// delta_low
+  optional float value_high = 5 [default = 1.1];// delta_high
+  optional bool debug = 6 [default = false];
+  optional string debug_prefix = 7;
+  optional float noise_ratio = 8 [default = 0.0];
+  optional int32 epoch_iters = 9 [default = 390];
+  optional int32 t_k = 10 [default = 20];
+  optional bool use_auto_noise_ratio = 11 [default = true];
+  optional float thred_train_sat = 12 [default = 0.9];// zeta
+}
+
