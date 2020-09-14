@@ -207,11 +207,4 @@ Pipeline:
  - M: 0.2
 
 
-### Model list
 
-  We released the whole models trained by our method under different dataset with different noise.
-
-  The experiment results in our paper are tested by those models. In order to ensure the stable and reasonable of
-  results, we averaged the accuracy in last ten epoches.
-
-  You can download those models [**`here`**](??)
