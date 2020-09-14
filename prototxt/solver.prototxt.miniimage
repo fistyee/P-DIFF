@@ -1,0 +1,15 @@
+net: "./prototxt/train_val.prototxt.miniimage"
+iter_size: 1
+test_iter: 100
+test_interval: 400
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 12500
+display: 20
+max_iter: 78125
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "./model/miniimage/PAIR_45/"
+solver_mode: GPU

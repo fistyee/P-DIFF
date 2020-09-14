@@ -1,0 +1,16 @@
+net: "./prototxt/train_val.prototxt.cifar100"
+iter_size: 1
+test_iter: 100
+test_interval: 400
+base_lr: 0.001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 31250
+stepvalue: 46875
+display: 20
+max_iter: 78125
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "../model/cifar100/pair_45/"
+solver_mode: GPU
