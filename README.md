@@ -1,6 +1,6 @@
 # P-DIFF: Learning Classifier with Noisy Labels based on Probability Difference Distributions
 
-Paper link: TBD
+Paper link: https://arxiv.org/abs/2009.06382
 
 
 ### Contents
