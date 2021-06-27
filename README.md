@@ -206,17 +206,13 @@ Pipeline:
  - ${\Zeta}$: 0.9
  - M: 0.2
 
-##### Citation:
-@inproceedings{P-DIFF,
-  author    = {Wei Hu and
-               QiHao Zhao and
-               Yangyu Huang and
-               Fan Zhang},
-  title     = {{P-DIFF:} Learning Classifier with Noisy Labels based on Probability
-               Difference Distributions},
-  booktitle = {{ICPR}},
-  pages     = {1882--1889},
-  publisher = {{IEEE}},
-  year      = {2020}
+### Citation:
+ - @inproceedings{P-DIFF,<br/>
+  author    = {Wei Hu and QiHao Zhao and Yangyu Huang and Fan Zhang},<br/>
+  title     = {{P-DIFF:} Learning Classifier with Noisy Labels based on Probability Difference Distributions},<br/>
+  booktitle = {{ICPR}},<br/>
+  pages     = {1882--1889},<br/>
+  publisher = {{IEEE}},<br/>
+  year      = {2020}<br/>
 }
 
