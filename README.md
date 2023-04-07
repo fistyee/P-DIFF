@@ -1,6 +1,13 @@
 # P-DIFF: Learning Classifier with Noisy Labels based on Probability Difference Distributions
 
-ICPR2020 Paper link: https://arxiv.org/abs/2009.06382
+ICPR2020 [Paper link](https://arxiv.org/abs/2009.06382)
+
+
+
+# P-DIFF+: Improving Learning Classifier with Noisy Labels by Noisy Negative Learning Loss
+
+Neural Networks [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002872)
+
 
 
 ### Contents
@@ -203,7 +210,7 @@ Pipeline:
 
 ##### Training parameters:
 
- - ${\Zeta}$: 0.9
+ - ${\zeta}$: 0.9
  - M: 0.2
 
 ### Citation:
@@ -214,5 +221,14 @@ Pipeline:
   pages     = {1882--1889},<br/>
   publisher = {{IEEE}},<br/>
   year      = {2020}<br/>
+}
+@article{zhao2021p,
+  title={P-DIFF+: Improving learning classifier with noisy labels by Noisy Negative Learning loss},
+  author={Zhao, QiHao and Hu, Wei and Huang, Yangyu and Zhang, Fan},
+  journal={Neural Networks},
+  volume={144},
+  pages={1--10},
+  year={2021},
+  publisher={Elsevier}
 }
 
