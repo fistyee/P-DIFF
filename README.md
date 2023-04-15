@@ -222,13 +222,14 @@ Pipeline:
   publisher = {{IEEE}},<br/>
   year      = {2020}<br/>
 }
-@article{zhao2021p,
-  title={P-DIFF+: Improving learning classifier with noisy labels by Noisy Negative Learning loss},
-  author={Zhao, QiHao and Hu, Wei and Huang, Yangyu and Zhang, Fan},
-  journal={Neural Networks},
-  volume={144},
-  pages={1--10},
-  year={2021},
-  publisher={Elsevier}
+
+- @article{zhao2021p, \
+  title={P-DIFF+: Improving learning classifier with noisy labels by Noisy Negative Learning loss},\
+  author={Zhao, QiHao and Hu, Wei and Huang, Yangyu and Zhang, Fan},\
+  journal={Neural Networks},\
+  volume={144},\
+  pages={1--10},\
+  year={2021},\
+  publisher={Elsevier}\
 }
 
